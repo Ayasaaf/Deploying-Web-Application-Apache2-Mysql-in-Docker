@@ -1,8 +1,8 @@
 <?php
-$host = "172.19.23.145";
-$db_name = "dev_to";
-$username = "root";
-$password = "password";
+$host = <***.**.**.***>;
+$db_name = <databasename> ;
+$username = <username>;
+$password = <password>;
 $connection = null;
 try{
 $connection = new PDO("mysql:host=" . $host . ";dbname=" . $db_name, $username, $password);
